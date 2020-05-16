@@ -1,0 +1,38 @@
+body{
+  background: black;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+h4{
+font-family: 'Segoe UI';
+color: red;
+}
+
+#sendA{
+font-family: 'Lucida Sans';
+background: orange;
+font-size: 1rem;
+border-radius: 50px;
+color: blue;
+height: 50px;
+width: 150px;
+
+
+}
+
+.borde{
+  border: 1px solid red;
+  background: yellowgreen;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 1rem;
+
+}
+
+nav{
+  color: white;
+  text-align: center;
+}
+
