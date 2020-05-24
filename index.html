@@ -14,7 +14,7 @@
 
 <body>
 
-   <h1>Escoge una alternativa y revisa tu puntaje al final</h1>
+   <h2>Escoge una alternativa y revisa tu puntaje al final</h2>
 
   <form name="form" onsubmit="return score()">
     <div class="borde">
@@ -207,11 +207,11 @@
     <div class="borde">
       <h4>21- ¿Cúantas Pseudodistancias son necesarias para resolver las ecuaciones de Posición mediante satélites?</h4>
       <hr>
-      <input type="radio" name="q21" value="a">a- Con una Helmert 3D
+      <input type="radio" name="q21" value="a">a- Son requeridas un mínimo de 6 distancias
       <hr>
       <input type="radio" name="q21" value="b">b- Se necesitan 4 Pseudodistancias medidas simultáneamente para resolver 4 incóginitas; los 3 componentes de Posición + 1 Desviación de reloj
       <hr>
-      <input type="radio" name="q21" value="c">c- Por el software científico BERNESSE y es competencia de UNABCO
+      <input type="radio" name="q21" value="c">c- Cuantas más Pseudo mejor
     </div>
     <div class="borde">
       <h4>22- ¿Cúales eran los problemas de los primeros sistemas satelitales?</h4>
@@ -220,133 +220,132 @@
       <hr>
       <input type="radio" name="q22" value="b">b- Baja precisión de navegación, en particular la determinación era pobre
       <hr>
-      <input type="radio" name="q22" value="c">c- Por el software científico BERNESSE y es competencia de UNABCO
+      <input type="radio" name="q22" value="c">c- a y b son correctas
     </div>
     <div class="borde">
       <h4>23- ¿Qué son los Sistemas de Aumentación?</h4>
       <hr>
       <input type="radio" name="q23" value="a">a- Estos sistemas "Aumentan" la órbita terrestre media "MEO" con satélites Geoestacionarios "GEO"
       <hr>
-      <input type="radio" name="q23" value="b">b- se complementan con Sistemas de aumentación basados en el espacio "SBAS" o Sistemas de aumentación basado en tierra "GBAS"
+      <input type="radio" name="q23" value="b">b- Se complementan con Sistemas de aumentación basados en el espacio "SBAS" o Sistemas de aumentación basado en tierra "GBAS"
       <hr>
-      <input type="radio" name="q23" value="c">c- Por el software científico BERNESSE y es competencia de UNABCO
+      <input type="radio" name="q23" value="c">c- a y b son correctas
     </div>
     <div class="borde">
-      <h4>24- ¿En qué consiste el "Almanaque"?</h4>
+      <h4>24- ¿Qué contiene el "Almanaque"?</h4>
       <hr>
-      <input type="radio" name="q24" value="a">a- Información sobre el estado del GNSS y datos a los usuarios, 
+      <input type="radio" name="q24" value="a">a- Información sobre el estado del GNSS y datos a los usuarios
       <hr>
-      <input type="radio" name="q24" value="b">b- contiene el estado de la constelación, cortes programados y datos orbitales adecuados para hacer predicciones de visibilidad del satélite y efemérides precisas adecuadas para posicionamientos precisos
+      <input type="radio" name="q24" value="b">b- Contiene el estado de la constelación, cortes programados y datos orbitales adecuados para hacer predicciones de visibilidad del satélite y efemérides precisas adecuadas para posicionamientos precisos
       <hr>
-      <input type="radio" name="q24" value="c">c- Por el software científico BERNESSE y es competencia de UNABCO
+      <input type="radio" name="q24" value="c">c- a y b son correctas
     </div>
     <div class="borde">
       <h4>25- ¿Qué es el GDoP?</h4>
       <hr>
-      <input type="radio" name="q25" value="a">a- Con una Helmert 3D
+      <input type="radio" name="q25" value="a">a- Dilución Geométrica de la Precisión; suponiendo 4 satélites el GDop 6 es adecuado y bajo 6 no es deseado
       <hr>
-      <input type="radio" name="q25" value="b">b- Por el método de Mínimos Cuadrados
+      <input type="radio" name="q25" value="b">b- Cuando pasa la señal del satelite por la atmosfera se ve afectada por los protones
       <hr>
-      <input type="radio" name="q25" value="c">c- Dilución Geométrica de la Precisión, suponiendo 4 satélites el GDop 6 es adecuado y bajo 6 no es deseado
+      <input type="radio" name="q25" value="c">c- Es un gráfico de la ubicación de las constelaciones de los satelites todo el día
     </div>
     <div class="borde">
-      <h4>26- ¿Cúal es la exactitud de la Pseudodistancia de Código?</h4>
+      <h4>26- ¿Cúal es la exactitud de la "Pseudodistancia de Código"?</h4>
       <hr>
-      <input type="radio" name="q26" value="a">a- Con una Helmert 3D
+      <input type="radio" name="q26" value="a">a- Tiene una precisión de alrededor de 24 km/h
       <hr>
-      <input type="radio" name="q26" value="b">b- Por el método de Mínimos Cuadrados
+      <input type="radio" name="q26" value="b">b- Exactitud de metros sin ambiguedades
       <hr>
-      <input type="radio" name="q26" value="c">c- Exactitud de metros sin ambiguedades
+      <input type="radio" name="q26" value="c">c- Son ciclos de ondas sinusoides cada 29 segundos
     </div>
     <div class="borde">
-      <h4>27- ¿Cúal es la exactitud de la Pseudodistancia de Fase?</h4>
+      <h4>27- ¿Cúal es la exactitud de la "Pseudodistancia de Fase"?</h4>
       <hr>
       <input type="radio" name="q27" value="a">a- Exactitud de milímetros, ambiguedades en un número entero de longitudes de onda
       <hr>
-      <input type="radio" name="q27" value="b">b- Por el método de Mínimos Cuadrados
+      <input type="radio" name="q27" value="b">b- Exactitud de 1 ppp
       <hr>
-      <input type="radio" name="q27" value="c">c- Por el software científico BERNESSE y es competencia de UNABCO
+      <input type="radio" name="q27" value="c">c- Aproximadamente 9 milímetros por astro
     </div>
     <div class="borde">
-      <h4>28- ¿CAMBIAR PREGUNTAS?</h4>
+      <h4>28- ¿Qué es el "Posicionamiento Absoluto"?</h4>
       <hr>
-      <input type="radio" name="q28" value="a">a- Con una Helmert 3D
+      <input type="radio" name="q28" value="a">a- Determinar coordenadas de 1 punto con 1 receptor midiendo pseudodistancias a 4 o más satélites
       <hr>
-      <input type="radio" name="q28" value="b">b- Por el método de Mínimos Cuadrados
+      <input type="radio" name="q28" value="b">b- Obtener coordenadas coordenadas con 2 antenas
       <hr>
-      <input type="radio" name="q28" value="c">c- Pseudodistancia de Código; exactitud metros sin ambiguedades y Pseudodistancia de Fase; exactitud milímetros 
+      <input type="radio" name="q28" value="c">c- Obtener un punto preciso con movimientos 
     </div>
     <div class="borde">
-      <h4>29- ¿Qué es el "Posicionamiento Absoluto"?</h4>
+      <h4>29- ¿Qué es el "Posicionamiento Diferencial"?</h4>
       <hr>
-      <input type="radio" name="q29" value="a">a- Se determinan coordenadas de 1 punto, cuando único receptor mide pseudodistancias a 4 o más satélites
+      <input type="radio" name="q29" value="a">a- Técnica de posicionamiento mejorada que se basa en aplicar correcciones a Pseudodistancias
       <hr>
-      <input type="radio" name="q29" value="b">b- Por el método de Mínimos Cuadrados
+      <input type="radio" name="q29" value="b">b- Proporciona soluciones instantáneas y corrige precisiones mejoradas respecto a una estación de referencia
       <hr>
-      <input type="radio" name="q29" value="c">c- Por el software científico BERNESSE y es competencia de UNABCO
+      <input type="radio" name="q29" value="c">c- a y b son correctas
     </div>
     <div class="borde">
-      <h4>30- ¿Qué es el "Posicionamiento Diferencial"?</h4>
+      <h4>30- ¿En qué consiste el "Posicionamiento Relativo"?</h4>
       <hr>
-      <input type="radio" name="q30" value="a">a- Con una Helmert 3D
+      <input type="radio" name="q30" value="a">a- Se utilizan 2 receptores y se realizan 2 mediciones "Código y Fase" a los mismos satélites simultáneamente en 2 sitios
       <hr>
-      <input type="radio" name="q30" value="b">b- Técnica de posicionamiento de 1 punto mejorada, se basa en aplicar correcciones a Pseudodistancias medidas en un lugar desconocido, proporciona soluciones instantáneas corrigiendo precisiones mejoradas respecto a una estación de referencia
+      <input type="radio" name="q30" value="b">b- Las mediciones son combinadas directamente, mejorando aún más la precisión de la posición
       <hr>
-      <input type="radio" name="q30" value="c">c- Por el software científico BERNESSE y es competencia de UNABCO
+      <input type="radio" name="q30" value="c">c- a y b son correctas
     </div>
     <div class="borde">
-      <h4>31- ¿En qué consiste el "Posicionamiento Relativo"?</h4>
+      <h4>31- ¿Cúal es la diferencia entre el "Posicionamiento Estático y Posicionamiento Cinemático" ?</h4>
       <hr>
-      <input type="radio" name="q31" value="a">a- Es posible si se utilizan 2 receptores y 2 mediciones "Código y Fase" a los mismos satélites y simultáneamente en 2 sitios
+      <input type="radio" name="q31" value="a">a- Estático: Significa "1 satélite" y Cinemático: Utiliza "más de 2 satelites"
       <hr>
-      <input type="radio" name="q31" value="b">b- las mediciones son combinadas directamente, mejorando aún más la precisión de la posición
+      <input type="radio" name="q31" value="b">b- Estático: Denota un lugar de observación "Fijo" y Cinemático: Implica "Movimiento"
       <hr>
-      <input type="radio" name="q31" value="c">c- otro
+      <input type="radio" name="q31" value="c">c- Estático: Es en "tiempo real" y Cinemático: Es en "pos-procesamiento"
     </div>
     <div class="borde">
-      <h4>32- ¿Cúal es la diferencia entre el "Posicionamiento Estático y Posicionamiento Cinemático" ?</h4>
+      <h4>32- ¿Cúales son las características del método "Tiempo Real"?</h4>
       <hr>
-      <input type="radio" name="q32" value="a">a- Con una Helmert 3D
+      <input type="radio" name="q32" value="a">a- Los resultados son "instantáneos" en campo si los observables de 1 sola época se utiliza para el cálculo de la posición
       <hr>
-      <input type="radio" name="q32" value="b">b- Por el método de Mínimos Cuadrados
+      <input type="radio" name="q32" value="b">b-  El tiempo de procesamiento es insignificante
       <hr>
-      <input type="radio" name="q32" value="c">c- Estático: Denota un lugar de observación "Fijo" y Cinemático: Implica "Movimiento"
-    </div>
-    <div class="borde">
-      <h4>33- ¿Cúales son las características del "Tiempo Real"?</h4>
-      <hr>
-      <input type="radio" name="q33" value="a">a- Los resultados son "instantáneos" en campo si los observables de 1 sola época se utilizan para el cálculo de la posición
-      <hr>
-      <input type="radio" name="q33" value="b">b-  El tiempo de procesamiento es insignificante
-      <hr>
-      <input type="radio" name="q33" value="c">c- Por el software científico BERNESSE y es competencia de UNABCO
+      <input type="radio" name="q32" value="c">c- Debe ocupar la frecuencia L3
+       <hr>
+       <input type="radio" name="q32" value="d">d- a y b son correctas
     </div>
      <div class="borde">
-       <h4>34- ¿En qué consiste el "Post Proceso"?</h4>
+       <h4>33- ¿Cúales son las características del método "Post Proceso"?</h4>
        <hr>
-       <input type="radio" name="q34" value="a">a- Se refiere a las aplicaciones en las cuales los datos se procesan despúes de la observación, es posible combinar medidas de varios receptores con más de una época de observación
+       <input type="radio" name="q33" value="a">a- Aplicaciones en las cuales los datos se procesan despúes de la observación
        <hr>
-       <input type="radio" name="q34" value="b">b- Por el método de Mínimos Cuadrados
+       <input type="radio" name="q33" value="b">b- Es posible combinar medidas de varios receptores con más de una época de observación
        <hr>
-       <input type="radio" name="q34" value="c">c- Por el software científico BERNESSE y es competencia de UNABCO
+       <input type="radio" name="q33" value="c">c- Se deben ocupar la misma época 
+        <hr>
+        <input type="radio" name="q33" value="d">d- a y b son correctas
      </div>
       <div class="borde">
-        <h4>35- ¿Cúales son las características de la técnica "Topografía" en posicionamiento por satélite?</h4>
+        <h4>34- ¿Cúales son las características de la técnica "Topografía" en posicionamiento por satélite?</h4>
         <hr>
-        <input type="radio" name="q35" value="a">a- Con una Helmert 3D
+        <input type="radio" name="q34" value="a">a- Su objetivo principal es el Posicionamiento de "Alta precisión"
         <hr>
-        <input type="radio" name="q35" value="b">b- Por el método de Mínimos Cuadrados
+        <input type="radio" name="q34" value="b">b- Se caracteriza por Observaciones "Estáticas" y "Postproceso"
         <hr>
-        <input type="radio" name="q35" value="c">c- Su objetivo principal es el posicionamiento, se caracteriza por alta precisión y Observaciones estáticas y postproceso
+        <input type="radio" name="q34" value="c">c- Emplea el uso de antenas RTTK
+        <hr>
+        <input type="radio" name="q34" value="d">c- a y b son correctas
       </div>
        <div class="borde">
-         <h4>36- ¿Cúales son las características de la técnica "Navegación" en posicionamiento por satélite</h4>
+         <h4>35- ¿Cúales son las características de la técnica "Navegación" en posicionamiento por satélite</h4>
          <hr>
-         <input type="radio" name="q36" value="a">a- Con una Helmert 3D
+         <input type="radio" name="q35" value="a">a- Determina posición, velocidad y orientación de objetos, es en "Movimiento"
          <hr>
-         <input type="radio" name="q36" value="b">b- Determina posición, velocidad y orientación de objetos en movimiento, requiere precisiones inferiores, pero el procesamiento de las observaciones cinemáticas es en tiempo real
+         <input type="radio" name="q35" value="b">b- Requiere "Precisiones inferiores", pero el procesamiento de las observaciones cinemáticas es en "tiempo real"
          <hr>
-         <input type="radio" name="q36" value="c">c- Por el software científico BERNESSE y es competencia de UNABCO
+         <input type="radio" name="q35" value="c">c- Presenta "Máxima Precisión" superando a la técnica Topografía
+         <hr>
+         <input type="radio" name="q35" value="d">d- a y b son correctas
        </div>
     <br>
     <input type="submit" id="sendA" value="Ver Puntaje">

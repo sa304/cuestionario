@@ -49,8 +49,7 @@ function score() {
     q32,
     q33,
     q34,
-    q35,
-    q36
+    q35
   ];//ultima no lleva coma
 
   var answers = [
@@ -75,25 +74,24 @@ function score() {
     "b", //19
     "c", //20
     "b", //21
-    "a", //22
-    "b", //23
+    "c", //22
+    "c", //23
     "c", //24
-    "b", //25
+    "a", //25
     "b", //26
     "b", //27
     "a", //28
-    "b", //29
+    "c", //29
     "a", //30
     "b", //31
-    "c", //32
-    "b", //33
-    "b", //34
-    "b", //35
-    "a" //36
+    "d", //32
+    "d", //33
+    "c", //34
+    "d" //35
   ];//ultima no lleva coma
 
   var points = 0;
-  var total = 36;
+  var total = 35;
 
   for (var i = 0; i < total; i++) {
     if (questions[i] === answers[i]) {
