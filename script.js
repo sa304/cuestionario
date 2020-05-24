@@ -13,6 +13,28 @@ function score() {
   var q12 = document.forms.form.q12.value;
   var q13 = document.forms.form.q13.value;
   var q14 = document.forms.form.q14.value;
+  var q15 = document.forms.form.q15.value;
+  var q16 = document.forms.form.q16.value;
+  var q17 = document.forms.form.q17.value;
+  var q18 = document.forms.form.q18.value;
+  var q19 = document.forms.form.q19.value;
+  var q20 = document.forms.form.q20.value;
+  var q21 = document.forms.form.q21.value;
+  var q22 = document.forms.form.q22.value;
+  var q23 = document.forms.form.q23.value;
+  var q24 = document.forms.form.q24.value;
+  var q25 = document.forms.form.q25.value;
+  var q26 = document.forms.form.q26.value;
+  var q27 = document.forms.form.q27.value;
+  var q28 = document.forms.form.q28.value;
+  var q29 = document.forms.form.q29.value;
+  var q30 = document.forms.form.q30.value;
+  var q31 = document.forms.form.q31.value;
+  var q32 = document.forms.form.q32.value;
+  var q33 = document.forms.form.q33.value;
+  var q34 = document.forms.form.q34.value;
+  var q35 = document.forms.form.q35.value;
+
 
   var questions = [
     q1,
