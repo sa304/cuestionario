@@ -6,7 +6,13 @@ body{
 
 h4{
 font-family: 'Segoe UI';
-color: red;
+color: blue;
+}
+
+h1{
+  font-family: 'Helvetica Neue';
+color: yellow;
+text-align: center;
 }
 
 #sendA{
