@@ -108,7 +108,7 @@ function score() {
     "b", //31
     "d", //32
     "d", //33
-    "c", //34
+    "d", //34
     "d" //35
   ];//ultima no lleva coma
 
